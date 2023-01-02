@@ -46,6 +46,20 @@ p {
   line-height: 1.5;
   opacity: 0.9;
 }
+.about-coder {
+  padding: 100px 20px;
+}
+.about-coder h1 {
+  line-height: 60px;
+}
+.about-coder h2 {
+  font-size: 18px;
+  font-family: var(--paragraph-font-family);
+}
+.about-coder-content {
+  margin: 20px;
+}
+
 .btn-branding {
   background: var(--primary-color);
   border-radius: 4px;
@@ -70,5 +84,9 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about-coder {
+    text-align: center;
+    padding: 0;
   }
 }
