@@ -46,18 +46,25 @@ p {
   line-height: 1.5;
   opacity: 0.9;
 }
-.about-coder {
+.content-coder {
   padding: 100px 20px;
 }
-.about-coder h1 {
+.content-coder h1 {
   line-height: 60px;
 }
-.about-coder h2 {
+.content-coder h2 {
   font-size: 18px;
   font-family: var(--paragraph-font-family);
 }
-.about-coder-content {
+.content {
   margin: 20px;
+}
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+.content p {
+  font-size: 14px;
 }
 
 .btn-branding {
@@ -85,8 +92,11 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-coder {
+  .content-coder {
     text-align: center;
     padding: 0;
+  }
+  .img-fluid {
+    margin-top: 15px;
   }
 }
