@@ -147,6 +147,7 @@ footer .social-links a:hover {
 }
 footer i {
   font-family: "Tangerine", cursive;
+  font-size: 25px;
 }
 @media (max-width: 960px) {
   h1 {
