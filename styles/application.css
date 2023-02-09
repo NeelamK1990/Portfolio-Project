@@ -78,6 +78,7 @@ p {
   font-size: 15px;
   line-height: 20px;
   padding: 15px 40px;
+  margin-right: 10px;
 }
 .btn-branding-link {
   border-radius: 4px;
@@ -176,5 +177,8 @@ footer i {
   }
   footer .contact-box p {
     font-size: 14px;
+  }
+  .btn-branding {
+    margin-top: 10px;
   }
 }
